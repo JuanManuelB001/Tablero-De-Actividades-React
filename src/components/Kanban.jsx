@@ -110,6 +110,7 @@ export function Kanban() {
       </Droppable>
     ))}
   </div>
+  
 </DragDropContext>
 
   )
