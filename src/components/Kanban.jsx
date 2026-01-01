@@ -97,7 +97,7 @@ export function Kanban() {
                         opacity: snapshot.isDragging ? 0.5 : 1,
                       }}
                     >
-                      <Card>{task.title}</Card>
+                      <Card props={task}></Card>
               
                     </div>
                   )}
