@@ -64,7 +64,7 @@ export function Kanban() {
 };
 
   return (
-  <DragDropContext onDragEnd={onDragEnd}>
+  <DragDropContext onDragEnd={onDragEnd} >
   <div className="kanban">
     {data.map((section) => (
       <Droppable key={section.id} droppableId={String(section.id)}>
@@ -77,7 +77,9 @@ export function Kanban() {
             <div className="kanban_section_title">
               {section.title}
             </div>
-
+<span className="kanban_section_hint">
+                texto
+              </span>
             <div className="kanban_section_content">
               {section.tasks?.map((task, index) => (
                 <Draggable
@@ -96,6 +98,7 @@ export function Kanban() {
                       }}
                     >
                       <Card>{task.title}</Card>
+              
                     </div>
                   )}
                 </Draggable>

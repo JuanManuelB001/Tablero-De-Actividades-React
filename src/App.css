@@ -16,4 +16,15 @@ body{
   background-repeat: no-repeat;
   width: 100vh;
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 20px;
+}
+
+@media (max-width:560px){
+  body{
+    display: block;
+    margin-left: 5px;
+  }
 }
