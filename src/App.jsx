@@ -13,7 +13,7 @@ function App() {
     <div className='page slide-in'>
       <Kanban data={data} setData={setData} />
       <BotonCrearTarea/>
-      <BotonActualizar data={data} setData={setData} />
+      
     </div>
   )
 }

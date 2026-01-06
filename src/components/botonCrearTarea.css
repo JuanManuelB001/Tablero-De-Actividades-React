@@ -1,0 +1,29 @@
+
+
+.botonCrearTarea{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.agregarTarea{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin: 12px;
+    padding: 10px 15px;
+    transition: transform 0.15s, box-shadow 0.15s, color  1s;
+}
+
+.agregarTarea:hover{
+    color: #333;
+    box-shadow: 0 10px 20px rgba(114, 80, 255, 0.3);
+}
+
+.botonAgregarTarea{
+    margin-top: 30px;
+}
+.botonAgregarTarea:focus{
+    transform: translateY(-2px);
+}

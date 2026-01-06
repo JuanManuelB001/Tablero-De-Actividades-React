@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { LocalStorage } from "./LocalStorage";
+import "./CrearTarea.css"
 
 export function CrearTarea() {
   const [data, setData] = useState(LocalStorage);
@@ -58,7 +59,7 @@ export function CrearTarea() {
 
   return (
     <div className="page slide-in">
-      <h2>Crear Tarea</h2>
+      <h2 className="titulo" >Crear Tarea</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="actividad">Actividad:</label>
         <input
