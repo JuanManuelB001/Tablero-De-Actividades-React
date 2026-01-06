@@ -48,28 +48,34 @@ input:focus, select:focus{
     box-shadow: 0 0 0 3px rgbs(114, 80, 255, 0.2);
 }
 
-button{
-
-    margin-top: 12px;
+.aceptar {
+    margin-top: 22px;
     margin: 0 auto;
-    padding: 12px;
+    padding: 12px 20px;
     width: 30%;
     border-radius: 12px;
     border: none;
-    background: linear-gradient(
-        145deg,
-         #7250FF,
-    #FFC857
-    );
-    color: #ffffff;
+    background: #d7d4d4; /* Fondo inicial gris */
+    color: #333;           /* Color inicial del texto */
     font-weight: bold;
+    font-size: 16px;
     cursor: pointer;
-    transition:  transform 0.15s, box-shadow 0.15s, color 0.75s;
+    box-shadow: 0 5px 10px rgba(114, 80, 255, 0.2); /* sombra inicial suave */
+
+    /* Transiciones para todo lo que cambia */
+    transition: background 0.5s ease, 
+                color 0.5s ease, 
+                transform 0.15s ease, 
+                box-shadow 0.25s ease;
 }
-button:hover{
-    color: #333;
-    box-shadow: 0 10px 20px rgba(114, 80, 255, 0.3);
+
+.aceptar:hover {
+    color: #ffffff; /* texto blanco en hover */
+    background: linear-gradient(145deg, #7250FF, #FFC857); /* gradiente */
+    box-shadow: 0 10px 20px rgba(114, 80, 255, 0.3); /* sombra más grande */
 }
-button:focus{
-    transform: translateY(-2px);
+
+.aceptar:focus {
+    transform: translateY(-2px); /* botón se eleva un poco al focus */
+    outline: none; /* quitamos el borde de focus por defecto */
 }

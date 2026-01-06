@@ -93,7 +93,7 @@ export function CrearTarea() {
           <option value="completado">Completado</option>
         </select>
 
-        <button type="submit">Aceptar</button>
+        <button type="submit" className="aceptar">Aceptar</button>
       </form>
     </div>
   );
