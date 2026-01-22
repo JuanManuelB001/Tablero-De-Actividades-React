@@ -68,8 +68,10 @@ export function Kanban() {
                 ref={provided.innerRef}
                 {...provided.droppableProps}
                 className="kanban_section"
+                
               >
-                <div className="kanban_section_title">{section.title}</div>
+                <div className="kanban_section_title"
+                style={{ color: section.color }}>{section.title}</div>
                 <span className="kanban_section_hint">
                   Última modificación: {section.last_data}
                 </span>

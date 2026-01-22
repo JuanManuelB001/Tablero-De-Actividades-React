@@ -39,11 +39,3 @@ body{
     opacity: 1;
   }
 }
-
-
-@media (max-width:560px){
-  body{
-    display: block;
-    margin-left: 5px;
-  }
-}

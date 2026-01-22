@@ -4,6 +4,7 @@ const mockData = [
   {
     id: uuidv4(),
     title: "💼 Por Hacer",
+    color: "#f87171", // rojo
     last_data: "2024-01-01",
     tasks: [
       {
@@ -26,6 +27,7 @@ const mockData = [
   {
     id: uuidv4(),
     title: "✏️ En progreso",
+    color: "#60a5fa", // azul
     last_data: "2024-01-10",
     tasks: [
       {
@@ -48,7 +50,8 @@ const mockData = [
   {
     id: uuidv4(),
     title: "✅ Completado",
-    last_data: "2024-01-06", 
+    color: "#34d399", // verde
+    last_data: "2024-01-06",
     tasks: [
       {
         id: uuidv4(),
@@ -68,6 +71,5 @@ const mockData = [
     ],
   },
 ];
-
 
 export default mockData;
