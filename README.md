@@ -1,3 +1,7 @@
+# Ver pagina
+
+Si quieres ver el resultado, puedes verlo dando click al siguiente enlace [click-aqui](https://tablero-kanban-react.netlify.app)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
