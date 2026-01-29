@@ -1,9 +1,9 @@
-import "./title.css";
+import "./title.css"
 
 export function Title(){
     return(
-        <div className="titulo">
-            Tablero de Tareas
+        <div className="tablero">
+            <p className="titulo">Tablero de Tareas</p>
         </div>
     );
 }
